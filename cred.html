@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Enter Credientials</title>
+   <link rel="stylesheet" href="landing.css"> <!-- Link your CSS file -->
+      
+        
+   </head>
+
+<body style="background-color: lightblue;">  <!-- making background light blue -->
+    <h1>Enter Credientals</h1>  <!-- title -->
+
+
+    <form>   <!-- using a form to make it look nice  -->
+        <!-- from lines 17-24, getting user input for their first/last name and zipcode -->
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+
+    <label for="zipcode">Zip Code:</label>
+    <input type="text" id="zipcode" name="zipcode" required><br><br>
+
+    <button type="button" onclick="check()">Click me to verify credientials</button> <!-- creating a button where the function in js file will be called -->
+    </form>
+
+
+    <p id="result"> </p>  <!-- to see result from the function in js file --> <br>
+
+    <p><a href="landing.html" class="link-style">Go back to Landing Page</a></p>
+<!-- Link back to index.html with class for styling -->
+    <script src="cred.js"></script> <!-- in order to access .js file -->
+
+
+</body>
+</html>

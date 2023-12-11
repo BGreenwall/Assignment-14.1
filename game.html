@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Time!!</title>
+    <script src = "./game.js"></script>
+    <link rel="stylesheet" href="landing.css"> <!-- Link your CSS file -->
+
+
+</head>
+<body>
+<h1>Blackout Dice Game</h1><br>
+<h2>To play the game, first click the "Click to Find Sum" button. This will generate the sum of two random numbers. (Sum ranges from 2 to 12)</h2><br>
+<h2>If the sum is greater than 7, then you Win. If the the sum is less than 7, you Lose, and if the sum equals 7, it is called a Blackout.</h2><br>
+<h2>To see the results, click the "Click to see Results" button (Refresh page to go again).</h2><br>
+
+
+
+<button  onclick = "findsum()"> Click to Find Sum </button> <br>
+<button  onclick = "displayResult()"> Click to See Results </button> <br>
+<p id = "answer">    </p>
+
+<p><a href="landing.html" class="link-style">Go back to Landing Page</a></p>
+<!-- Link back to index.html with class for styling -->
+
+</body>
+</html>

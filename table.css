@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(223, 144, 179); /* Change this to your desired table background color */
+}
+
+th, td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #e7a8a8;
+  text-align: center;
+}
+
+th {
+  background-color: lightgrey;
+}
+
+tr:first-child {
+  background-color: rgb(151, 210, 230); /* Change this to your desired color for the first row */
+}
+
+body {
+  background-color: rgb(216, 174, 226); /* Change this to your desired background color for the entire page */
+}
+
+.resized-image {
+  max-width: 100px; /* Adjust the maximum width as needed */
+  max-height: 100px; /* Adjust the maximum height as needed */
+}
